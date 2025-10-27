@@ -1,0 +1,9 @@
+streamlit
+python-dotenv
+pydantic
+langchain
+langchain-groq
+langchain-community
+pypdf
+docx2txt
+tenacity
