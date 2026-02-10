@@ -1,17 +1,16 @@
-Enterprise Talent Intelligence Agent
+🚀 Enterprise Talent Intelligence Agent
 AI Resume Screener + Job Description Matching System
-
-An LLM-powered resume intelligence application that extracts structured candidate information from resumes and evaluates candidate–job fit using Groq LLaMA models.
+An LLM-powered Talent Intelligence system that extracts structured candidate information from resumes and evaluates candidate–job fit using Groq LLaMA models.
 This project demonstrates how modern AI recruitment assistants can be built using LangChain pipelines, structured output parsing, and resilient LLM orchestration.
 
-Features
-Resume Parsing
-Supports:
+✨ Key Features
+📄 Resume Parsing Engine
+Supports multiple resume formats:
 PDF resumes
 DOCX resumes
 TXT resumes
 
-Extracted information:
+The system automatically extracts structured candidate information:
 Name
 Email
 Phone
@@ -23,30 +22,27 @@ Projects
 Certifications
 Languages
 
-Role Matching Engine
-The agent analyzes resumes against a Job Description and produces:
+🎯 Role Matching Engine
+The Talent Intelligence Agent analyzes resumes against a Job Description (JD) and produces:
 Role Match Score (0–100)
 Match Justification
-Structured candidate profile JSON
 
-Tech Stack
-LLM
+🧠 Tech Stack
+LLM Layer
 Groq API
 LLaMA-3.1-8B-Instant
 LangChain
 
 Backend
 Python
-Pydantic
-Tenacity
-dotenv
+pydantic (structured validation)
+Tenacity (retry handling)
+dotenv (environment management)
+
 Document Processing
 PyPDFLoader
 Docx2txtLoader
 TextLoader
+Structured Candidate Profile (JSON)
 
-Frontend
-Streamlit
-
-Architecture
-Resume → Loader → Text Extraction → Prompt → LLM → JSON Parser → UI Dashboard
+This enables AI-assisted resume screening and candidate ranking workflows.
